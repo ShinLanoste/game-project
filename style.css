@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #1d1d1d;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: fantasy;
+    line-height: 1.2;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 1170px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
+
+
+
+/* banner css */
+.banner {
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.inverted * {
+    color: #fff;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, rgb(29 29 29), transparent);
+}
+
+.bannerContent {
+    max-width: 500px;
+}
