@@ -1,2 +1,3 @@
-# My Game Project - This is my awesome game!
+# My Super Amazing Game Project - Best Ever!
+
 ## Features - Coming soon!
