@@ -1,3 +1,3 @@
-# My Super Amazing Game Project - Best Ever!
+# My Incredible Game Project - Ultimate Edition!
 
 ## Features - Coming soon!
