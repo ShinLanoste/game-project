@@ -25,6 +25,16 @@
             </div>
         </div>
     </div>
+    <div id="scoring">
+        <h2>Score: <span id="score">0</span></h2>
+        <button onclick="addScore()">Add Points</button>
+        <script>
+            function addScore() {
+                let score = document.getElementById('score');
+                score.textContent = parseInt(score.textContent) + 10;
+            }
+        </script>
+    </div>
 </body>
 
 </html>
