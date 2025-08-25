@@ -1,2 +1,2 @@
-# My Game Project - This is my awesome game!
+# My Incredible Game Project - Ultimate Edition!
 ## Features - Coming soon!
